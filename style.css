@@ -1,0 +1,53 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header,
+.first {
+    background-color: #1F2937;
+}
+
+.first .content .title {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+}
+
+.button {
+    background-color: #3882F6;
+}
+
+.image {
+    background-color: gray
+}
+
+.second .title {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+}
+
+.square {
+    width: 300px;
+    height: 300px;
+    border: medium solid #3882F6;
+}
+
+.third {
+    background-color: #E5E7EB;
+}
+
+.fourth .content {
+    background-color: #3882F6;
+}
+
+.fourth .button {
+    color: white;
+    border: medium solid white;
+}
+
+.footer {
+    color: white;
+    background-color: #1F2937;
+}
