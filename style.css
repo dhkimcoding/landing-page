@@ -89,16 +89,38 @@ body {
     color: #F9FAF8;
 }
 
+.second {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 400px;
+    justify-content: center;
+    gap: 48px;
+}
+
 .second .title {
     font-size: 36px;
-    font-weight: extra-bold;
+    font-weight: 600;
     color: #1F2937;
 }
 
-.square {
-    width: 300px;
-    height: 300px;
+.second .content {
+    display: flex;
+    gap: 60px;
+}
+
+.second .one,
+.second .two,
+.second .three,
+.second .four {
+    width: 150px;
+}
+
+.second .square {
+    width: 150px;
+    height: 150px;
     border: medium solid #3882F6;
+    border-radius: 15px;
 }
 
 .third {
