@@ -1,11 +1,38 @@
 body {
     display: flex;
     flex-direction: column;
+    margin: 0;
+    font-family: sans-serif;
 }
 
 .header,
 .first {
     background-color: #1F2937;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header .container {
+    display: flex;
+    width: 1000px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .logo {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.header ul {
+    color: #E5E7EB;
+    list-style-type: none;
+    display: flex;
+    gap: 12px;
 }
 
 .first .content .title {
