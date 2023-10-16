@@ -125,6 +125,31 @@ body {
 
 .third {
     background-color: #E5E7EB;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+.third .container {
+    width: 760px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 24px;
+}
+
+.third .quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.third .author {
+    align-self: flex-end;
+    font-weight: bolder;
+    font-size: larger;
 }
 
 .fourth .content {
